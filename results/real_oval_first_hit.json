@@ -1,0 +1,189 @@
+{
+  "model": "real Euclidean billiard inside bounded oval of y^2=x^3-x",
+  "random_initial_pairs": 10000,
+  "root_statistics": {
+    "success": 10000,
+    "finite_third_intersection": 9999,
+    "third_point_behind_B": 5227,
+    "third_point_in_front_of_B": 4772,
+    "third_point_at_infinity_or_tangency": 1
+  },
+  "maximum_one_step_reverse_error": 1.5737411374061594e-13,
+  "chain_count": 200,
+  "additional_bounces_per_chain": 80,
+  "maximum_full_chain_reverse_error_in_double_precision": 1.2273498539946621,
+  "reverse_roundoff_by_depth": {
+    "10": {
+      "median": 4.929291689160992e-15,
+      "max": 1.6919968316366802e-11,
+      "fraction_above_1e_minus_4": 0.0
+    },
+    "20": {
+      "median": 3.219453823112364e-14,
+      "max": 5.801707415016925e-10,
+      "fraction_above_1e_minus_4": 0.0
+    },
+    "40": {
+      "median": 1.1488526328674212e-12,
+      "max": 4.970136693885435e-06,
+      "fraction_above_1e_minus_4": 0.0
+    },
+    "80": {
+      "median": 1.2880653635035242e-07,
+      "max": 1.2273498539946621,
+      "fraction_above_1e_minus_4": 0.305
+    }
+  },
+  "roundoff_warning": "large reverse errors in 80-step double-precision runs reflect numerical instability, not mathematical non-invertibility; compare optional 100-digit verification",
+  "maximum_cubic_residual": 4.4497738826976274e-13,
+  "two_positive_intersection_examples": [
+    {
+      "A": [
+        -0.003226632296094443,
+        0.05680315751014495
+      ],
+      "B": [
+        -0.8672661569935619,
+        0.4636285235703793
+      ],
+      "physical_C": [
+        -0.12486032876287789,
+        -0.350590563962184
+      ],
+      "extra_D": [
+        2.1949441936472613,
+        -2.89479085127969
+      ],
+      "t_C": 1.15376214594058,
+      "t_D": 4.758936758210634
+    },
+    {
+      "A": [
+        -0.9997203450982425,
+        0.023644771193519265
+      ],
+      "B": [
+        -0.9433562797527805,
+        0.32224780738751085
+      ],
+      "physical_C": [
+        -0.8281669019935458,
+        0.5100588248279594
+      ],
+      "extra_D": [
+        4.4299044389331845,
+        9.083103905234637
+      ],
+      "t_C": 0.7250373459314045,
+      "t_D": 33.820954381891504
+    },
+    {
+      "A": [
+        -0.24593957957418405,
+        0.48069076347242967
+      ],
+      "B": [
+        -0.7208083306246751,
+        -0.5884741310953923
+      ],
+      "physical_C": [
+        -0.20088712933615627,
+        0.43906742183697967
+      ],
+      "extra_D": [
+        4.827618950188522,
+        10.377109827261702
+      ],
+      "t_C": 0.9843678914038905,
+      "t_D": 10.504848906884762
+    }
+  ],
+  "finite_field_101": {
+    "affine_points": 103,
+    "ordered_states": 10506,
+    "status_counts": {
+      "two-next": 5164,
+      "no-affine-next": 5050,
+      "tangent-at-current": 100,
+      "one-next": 192
+    },
+    "number_of_reflected_intersections_for_A_minus1_B_zero": 2,
+    "reflected_intersections_A_minus1_B_zero": [
+      [
+        1,
+        0
+      ],
+      [
+        100,
+        0
+      ]
+    ],
+    "warning": "finite field lacks positive-ray parameter and nearest-first ordering"
+  },
+  "plot_trajectory": [
+    [
+      -0.13076572063520606,
+      0.3585103478033543
+    ],
+    [
+      -0.8548962781810602,
+      0.4796846311019607
+    ],
+    [
+      -0.4254581775469252,
+      -0.5902914617678323
+    ],
+    [
+      -0.8336301853825059,
+      0.504289420452865
+    ],
+    [
+      -0.08158086174455481,
+      0.284671574728783
+    ],
+    [
+      -0.2684922451832251,
+      -0.49913640740418286
+    ],
+    [
+      -0.8411722472632716,
+      -0.4959671055152052
+    ],
+    [
+      -0.7121452206767216,
+      0.5924358120296574
+    ],
+    [
+      -0.007285933133433287,
+      0.08535541201923302
+    ],
+    [
+      -0.49277701594574264,
+      -0.6108325249791197
+    ],
+    [
+      -0.9279141849642579,
+      -0.3591060011613875
+    ],
+    [
+      -0.7435799116225839,
+      0.5765815952026643
+    ],
+    [
+      -0.1333444533588729,
+      0.3619025972150668
+    ],
+    [
+      -0.085550328890339,
+      -0.29141756658648144
+    ],
+    [
+      -0.7325291077482132,
+      -0.5826274958570452
+    ],
+    [
+      -0.9130760006991488,
+      0.3896632294656358
+    ]
+  ]
+}

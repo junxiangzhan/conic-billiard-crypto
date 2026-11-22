@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conic-billiard-crypto-lab"
+version = "0.2.0"
+description = "Research toy: finite-field conic reflection, cycle graphs, and matrix questions"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Research prototype"}]
+
+[tool.setuptools]
+packages = ["conic_billiard"]

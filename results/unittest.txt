@@ -1,0 +1,28 @@
+test_isotropic_cases_and_coincident_points (test_core.ReflectionTests.test_isotropic_cases_and_coincident_points) ... ok
+test_large_field_single_step_not_exhaustive_search (test_core.ReflectionTests.test_large_field_single_step_not_exhaustive_search) ... ok
+test_matrix_matches_step_and_is_invertible (test_core.ReflectionTests.test_matrix_matches_step_and_is_invertible) ... ok
+test_new_state_depends_on_previous_state (test_core.ReflectionTests.test_new_state_depends_on_previous_state) ... ok
+test_stored_small_field_counts (test_core.ReflectionTests.test_stored_small_field_counts) ... ok
+test_affine_points (test_cubic_mirror.CubicMirrorTests.test_affine_points) ... ok
+test_entire_101_relation_reversible (test_cubic_mirror.CubicMirrorTests.test_entire_101_relation_reversible) ... ok
+test_isotropic_normal_in_1009 (test_cubic_mirror.CubicMirrorTests.test_isotropic_normal_in_1009) ... ok
+test_min_and_max_policies_differ (test_cubic_mirror.CubicMirrorTests.test_min_and_max_policies_differ) ... ok
+test_no_rational_intersection (test_cubic_mirror.CubicMirrorTests.test_no_rational_intersection) ... ok
+test_polynomial_invariants (test_cubic_mirror.CubicMirrorTests.test_polynomial_invariants) ... ok
+test_two_intersections (test_cubic_mirror.CubicMirrorTests.test_two_intersections) ... ok
+test_a_specific_periodic_orbit (test_hyperbola.HyperbolaTests.test_a_specific_periodic_orbit) ... ok
+test_hyperbola_equation_and_points (test_hyperbola.HyperbolaTests.test_hyperbola_equation_and_points) ... ok
+test_nonextension_at_affine_infinity (test_hyperbola.HyperbolaTests.test_nonextension_at_affine_infinity) ... ok
+test_known_fixed_matrix_linearization (test_parabola.ParabolaTests.test_known_fixed_matrix_linearization) ... ok
+test_parabola_not_assumed_secure (test_parabola.ParabolaTests.test_parabola_not_assumed_secure) ... ok
+test_finite_field_two_candidates_not_ray (test_real_oval.TestRealOval.test_finite_field_two_candidates_not_ray) ... ok
+test_first_intersection_is_oval (test_real_oval.TestRealOval.test_first_intersection_is_oval) ... ok
+test_oval_parametrization (test_real_oval.TestRealOval.test_oval_parametrization) ... ok
+test_reverse_first_hit (test_real_oval.TestRealOval.test_reverse_first_hit) ... ok
+test_short_chain (test_real_oval.TestRealOval.test_short_chain) ... ok
+test_reference_ecc_construction_and_attack (test_toy_dh.ToyECDHTests.test_reference_ecc_construction_and_attack) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.852s
+
+OK

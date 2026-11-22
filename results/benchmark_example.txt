@@ -1,0 +1,8 @@
+Ellipse F_1009, n= 10000 lambda= 964
+Sequential reflection : 28.515 ms
+4x4 state matrices    : 48.497 ms
+Jacobi group fastjump : 0.045 ms
+All return SAME complete consecutive-point state: ((648, 834), (308, 27))
+Warning: Jacobi method uses known group law, NOT raw 4x4 matrix doubling.
+Hyperbola F_103: period 60 verified by direct reflection and reversible 4x4 matrices
+Warning: NO hyperbola fastjump/group lifting is claimed in this prototype.

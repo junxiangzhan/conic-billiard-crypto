@@ -1,0 +1,363 @@
+{
+  "curve": "y^2=x^3-x mod p",
+  "model": "specular reflection with bilinear form dx^2+dy^2",
+  "101": {
+    "p": 101,
+    "a": 100,
+    "b": 0,
+    "affine_points": 103,
+    "states_tested": 10506,
+    "status_counts": {
+      "two-next": 5164,
+      "no-affine-next": 5050,
+      "tangent-at-current": 100,
+      "one-next": 192
+    },
+    "outdegree_counts": {
+      "2": 5164,
+      "0": 5050,
+      "1": 292
+    },
+    "edges_tested": 10620,
+    "reverse_edges_verified": 10620,
+    "chord_norm_squareclass_verified": 10620,
+    "witnesses": {
+      "two-next": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            100,
+            0
+          ]
+        ]
+      ],
+      "no-affine-next": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          39
+        ],
+        []
+      ],
+      "tangent-at-current": [
+        [
+          0,
+          0
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "one-next": [
+        [
+          2,
+          39
+        ],
+        [
+          20,
+          100
+        ],
+        [
+          [
+            20,
+            1
+          ]
+        ]
+      ]
+    }
+  },
+  "1009": {
+    "p": 1009,
+    "a": 1008,
+    "b": 0,
+    "affine_points": 1039,
+    "states_tested": 1078482,
+    "status_counts": {
+      "two-next": 550626,
+      "no-affine-next": 520550,
+      "one-next": 2122,
+      "tangent-at-current": 1032,
+      "isotropic-normal": 4152
+    },
+    "outdegree_counts": {
+      "2": 550626,
+      "0": 524702,
+      "1": 3154
+    },
+    "edges_tested": 1104406,
+    "reverse_edges_verified": 1104406,
+    "chord_norm_squareclass_verified": 1104406,
+    "witnesses": {
+      "two-next": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1008,
+            0
+          ]
+        ]
+      ],
+      "no-affine-next": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          64
+        ],
+        []
+      ],
+      "one-next": [
+        [
+          0,
+          0
+        ],
+        [
+          438,
+          126
+        ],
+        [
+          [
+            438,
+            883
+          ]
+        ]
+      ],
+      "tangent-at-current": [
+        [
+          0,
+          0
+        ],
+        [
+          469,
+          468
+        ],
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "isotropic-normal": [
+        [
+          0,
+          0
+        ],
+        [
+          605,
+          465
+        ],
+        []
+      ]
+    }
+  },
+  "101_deterministic_min_policy": {
+    "policy": "min",
+    "states": 10506,
+    "cycles_by_period": {
+      "2": 1,
+      "4": 5
+    },
+    "max_cycle": 4,
+    "max_cycle_witness": [
+      [
+        0,
+        0
+      ],
+      [
+        10,
+        9
+      ]
+    ],
+    "ending_paths": 5050
+  },
+  "101_deterministic_max_policy": {
+    "policy": "max",
+    "states": 10506,
+    "cycles_by_period": {
+      "2": 1,
+      "4": 2,
+      "8": 1,
+      "14": 1
+    },
+    "max_cycle": 14,
+    "max_cycle_witness": [
+      [
+        77,
+        80
+      ],
+      [
+        23,
+        23
+      ]
+    ],
+    "ending_paths": 5050
+  },
+  "polynomial_invariant_scan_101": {
+    "edges_used": 220,
+    "degree_results": {
+      "1": {
+        "monomials": 5,
+        "rank_on_sample": 4,
+        "nullity_upper_bound": 1,
+        "trivial_constant_and_curve_relations_dimension": 1,
+        "no_nontrivial_integral_in_this_polynomial_class": true
+      },
+      "2": {
+        "monomials": 15,
+        "rank_on_sample": 14,
+        "nullity_upper_bound": 1,
+        "trivial_constant_and_curve_relations_dimension": 1,
+        "no_nontrivial_integral_in_this_polynomial_class": true
+      },
+      "3": {
+        "monomials": 35,
+        "rank_on_sample": 32,
+        "nullity_upper_bound": 3,
+        "trivial_constant_and_curve_relations_dimension": 3,
+        "no_nontrivial_integral_in_this_polynomial_class": true
+      },
+      "4": {
+        "monomials": 70,
+        "rank_on_sample": 59,
+        "nullity_upper_bound": 11,
+        "trivial_constant_and_curve_relations_dimension": 11,
+        "no_nontrivial_integral_in_this_polynomial_class": true
+      }
+    }
+  },
+  "polynomial_invariant_scan_1009": {
+    "edges_used": 220,
+    "degree_results": {
+      "1": {
+        "monomials": 5,
+        "rank_on_sample": 4,
+        "nullity_upper_bound": 1,
+        "trivial_constant_and_curve_relations_dimension": 1,
+        "no_nontrivial_integral_in_this_polynomial_class": true
+      },
+      "2": {
+        "monomials": 15,
+        "rank_on_sample": 14,
+        "nullity_upper_bound": 1,
+        "trivial_constant_and_curve_relations_dimension": 1,
+        "no_nontrivial_integral_in_this_polynomial_class": true
+      },
+      "3": {
+        "monomials": 35,
+        "rank_on_sample": 32,
+        "nullity_upper_bound": 3,
+        "trivial_constant_and_curve_relations_dimension": 3,
+        "no_nontrivial_integral_in_this_polynomial_class": true
+      },
+      "4": {
+        "monomials": 70,
+        "rank_on_sample": 59,
+        "nullity_upper_bound": 11,
+        "trivial_constant_and_curve_relations_dimension": 11,
+        "no_nontrivial_integral_in_this_polynomial_class": true
+      }
+    }
+  },
+  "101_examples": {
+    "no_rational_next": {
+      "A": [
+        0,
+        0
+      ],
+      "B": [
+        2,
+        39
+      ],
+      "polynomial": [
+        27,
+        48,
+        10
+      ],
+      "discriminant": 12,
+      "result": []
+    },
+    "two_rational_next": {
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        2,
+        39
+      ],
+      "polynomial": [
+        85,
+        67,
+        100
+      ],
+      "discriminant": 82,
+      "result": [
+        [
+          50,
+          35
+        ],
+        [
+          96,
+          48
+        ]
+      ]
+    }
+  },
+  "1009_branch_reach_counts_for_seed_499_269__91_322": [
+    1,
+    2,
+    4,
+    4,
+    6,
+    8,
+    8,
+    6,
+    6,
+    8,
+    10,
+    12,
+    10
+  ],
+  "caveats": [
+    "Finite fields have no physical ordering of ray-intersection parameters.",
+    "t=0 contact at B excluded as a new hit; finite roots only.",
+    "Degree at most 4 polynomial invariant scan excludes only this class; not rational or algebraic invariants.",
+    "Min/max successor choice is an arbitrary rule; not a canonical or reversible billiard action.",
+    "No direct O(log n) fast jump or secure DH for the cubic mirror model is demonstrated."
+  ]
+}

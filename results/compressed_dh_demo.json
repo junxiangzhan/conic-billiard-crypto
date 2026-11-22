@@ -1,0 +1,9 @@
+{
+  "field_bits": 255,
+  "subgroup_bits": 253,
+  "encoded_public_key_bytes": 32,
+  "alice_public_hex": "66c02bef247829b58302cb4af8a248e365962b7c7a436a68183e9d453eddfec1",
+  "bob_public_hex": "45e2b534f9f05f4eb58a447d9f1553be92b2b22ccc04ca77aaca97a67185de3f",
+  "shared_point_agrees": true,
+  "warning": "Toy, variable-time, unauthenticated; do not use for actual key exchange"
+}
