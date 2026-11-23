@@ -1,4 +1,4 @@
-# Conic Billiard Crypto Lab
+# Conic Billiard Crypto
 
 Conic billiards over a finite field: a ball bouncing inside an ellipse or a hyperbola modulo $p$. The project studies two questions:
 
