@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conic-billiard-crypto-lab"
+version = "0.3.0"
+description = "Finite-field conic billiards: geometric group law, elliptic-curve correspondence, and group-order tools"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Jun-Xiang Zhan"}]
+
+[tool.setuptools]
+packages = ["conic_billiard"]
+
+[dependency-groups]
+tools = [
+    "sympy>=1.14.0",
+]
